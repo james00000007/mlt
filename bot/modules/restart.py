@@ -9,7 +9,6 @@ from ..helper.ext_utils.bot_utils import new_task, sync_to_async
 from ..helper.telegram_helper.message_utils import (
     send_message,
     delete_message,
-    edit_message,
 )
 from ..helper.ext_utils.db_handler import database
 from ..helper.ext_utils.files_utils import clean_all
@@ -124,7 +123,7 @@ async def confirm_restart(_, query):
             "pkill",
             "-9",
             "-f",
-            "gunicorn|aria2c|qbittorrent-nox|ffmpeg|rclone|java|sabnzbdplus",
+            "gunicorn|aria2c|qbittorrent-nox|ffmpeg|rclone|java|sabnzbdplus|7z",
         )
         proc2 = await create_subprocess_exec("python3", "update.py")
         await gather(proc1.wait(), proc2.wait())
