@@ -91,6 +91,11 @@ RSS_SIZE_LIMIT = 0
 SEARCH_API_LINK = ""
 SEARCH_LIMIT = 0
 SEARCH_PLUGINS = [
+    "https://raw.githubusercontent.com/TainakaDrums/qbPornolab/refs/heads/master/pornolab.py",
+    "https://raw.githubusercontent.com/444995/qbit-search-plugins/main/engines/torrentleech.py",
+    "https://raw.githubusercontent.com/galaris/BTDigg-qBittorrent-plugin/main/btdig.py",
+    "https://raw.githubusercontent.com/nbusseneau/qBittorrent-rutracker-plugin/master/rutracker.py",
+    "https://raw.githubusercontent.com/TuckerWarlock/qbittorrent-search-plugins/main/bt4gprx.com/bt4gprx.py",
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/piratebay.py",
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/limetorrents.py",
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torlock.py",
@@ -107,5 +112,6 @@ SEARCH_PLUGINS = [
     "https://raw.githubusercontent.com/v1k45/1337x-qBittorrent-search-plugin/master/leetx.py",
     "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/magnetdl.py",
     "https://raw.githubusercontent.com/msagca/qbittorrent_plugins/main/uniondht.py",
+    "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/xxxclubto.py",
     "https://raw.githubusercontent.com/khensolomon/leyts/master/yts.py",
 ]
